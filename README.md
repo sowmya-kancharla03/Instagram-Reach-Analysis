@@ -34,7 +34,7 @@
 **📈 Results and Analysis**
 
     Model performance was evaluated using standard regression metrics: Root Mean Squared Error (RMSE) and R^2Score (Coefficient of Determination).
-        **Model                        RMSE            R2 Score                          Key Finding**
+        Model                        RMSE            R2 Score                          Key Finding
         Linear Regression            2322.30         0.8906                       Strong baseline model.
         Random Forest Regressor,     2601.25         0.8628                       Good predictive power, but higher error than linear models.
         SVR                          7964.05        -0.2863                       Performed poorly, indicating a poor fit for the data structure.
