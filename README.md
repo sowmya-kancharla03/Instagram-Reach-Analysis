@@ -21,8 +21,8 @@
         Target Variable: Impressions (total number of times a post was viewed).
         Key Features: Likes, Comments, Shares, Saves, Profile Visits, Follows, Hashtag Count, and Caption Length.
         Data Cleaning: Handled missing values (using medians for numeric) and removed highly correlated/leaking columns (e.g., From Home, From Hashtags).
-       Feature Engineering: Calculated Engagement Rate and derived Hashtag Count and Caption Length.
-       Split: Data was separated into 80% training and 20% testing sets.
+        Feature Engineering: Calculated Engagement Rate and derived Hashtag Count and Caption Length.
+        Split: Data was separated into 80% training and 20% testing sets.
     2. Machine Learning Models
         Multiple regression algorithms were evaluated for their ability to predict the continuous Impressions variable:
             Linear Regression 
